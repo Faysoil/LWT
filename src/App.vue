@@ -1,15 +1,31 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  
+<section class="h-screen bg-cover" style="background-image: url('tenze.jpg')">
+  <div class="flex h-full w-full items-center justify-center container mx-auto px-8">
+    <div class="max-w-2xl text-center">
+      <h1 class="text-3xl sm:text-5xl capitalize tracking-widest text-white lg:text-7xl">Coming soon</h1>
+
+      <p class="mt-6 lg:text-lg text-white">Cette page n'existe pas encore mais quand elle existera ce sera super bien Wallah.</p>
+
+      <div class="mt-8 flex flex-col space-y-3 sm:-mx-2 sm:flex-row sm:justify-center sm:space-y-0">
+        
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+  
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    
   }
 }
 </script>
